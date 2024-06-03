@@ -6,3 +6,4 @@ exclude:
   - name: All
     paths:
       - lib/jquery-1.7.1
+      - lib
