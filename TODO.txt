@@ -1,0 +1,45 @@
+TODO:
+("Sulfuras, Hand of Ragnaros", 0, 80) after 2 days 
+-> Quality == 80 OK
+
+("Aged Brie", 2, 0) after 2 days 
+-> Quality == 2 OK
+
+("Backstage passes to a TAFKAL80ETC concert", 15, 20) after 2 days 
+-> Quality == 22 OK
+
+("Backstage passes to a TAFKAL80ETC concert", 10, 20) after 2 days 
+-> Quality == 24 OK
+
+("Backstage passes to a TAFKAL80ETC concert", 5, 20) after 2 days 
+-> Quality == 26 OK
+
+("Normal Item", 5, 10) after 2 days 
+-> Quality == 8 OK
+
+("Normal Item", 0, 10) after 2 days 
+-> Quality == 6 OK
+
+("Normal Item", 0, 3) after 2 days 
+-> Quality == 0 OK
+
+("Aged Brie", 2, 49) after 2 days 
+-> Quality == 50 OK
+
+("Backstage passes to a TAFKAL80ETC concert", 1, 20) after 2 days 
+-> Quality == 0 OK
+
+("Conjured Milk", 5, 10) after 2 days
+-> Quality == 6 OK
+
+("Conjured Milk", 0, 10) after 2 days
+-> Quality == 2 OK
+
+("Sulfuras, Hand of Ragnaros", 0, 80) after 2 days 
+-> sellIn == 0 OK
+
+("Aged Brie", 2, 0) after 2 days
+-> sellIn == 0 OK
+
+("Backstage passes to a TAFKAL80ETC concert", 2, 20) after 2 days 
+-> Quality == 26 OK
