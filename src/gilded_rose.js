@@ -13,13 +13,13 @@ export class Shop {
   updateQuality() {
     for (var i = 0; i < this.items.length; i++) {
       var amount;
-      if (this.items[i].name == "Sulfuras, Hand of Ragnaros") {
+      if (this.items[i].name === "Sulfuras, Hand of Ragnaros") {
         continue;
       } else if(this.items[i].name.startsWith('Conjured')) {
         amount = 2;
-      } else if (this.items[i].name == "Aged Brie") {
+      } else if (this.items[i].name === "Aged Brie") {
         amount = -1;
-      } else if (this.items[i].name == "Backstage passes to a TAFKAL80ETC concert") {
+      } else if (this.items[i].name === "Backstage passes to a TAFKAL80ETC concert") {
         if (this.items[i].sellIn < 1) {
           amount = this.items[i].quality;
         } else if (this.items[i].sellIn < 6) {
