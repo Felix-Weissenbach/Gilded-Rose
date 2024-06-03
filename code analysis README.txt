@@ -1,1 +1,1 @@
-configuration was not quite right until 527f2f74, thats why there are suddenly 99 new issues
+configuration was not quite right until 527f2f74 (scan 4), thats why there are suddenly 99 new issues
